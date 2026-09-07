@@ -1,0 +1,14 @@
+.env
+*.ex5
+*.ex4
+*.log
+*.tmp
+*.cache
+.vscode/
+nul
+__pycache__/
+*.pyc
+_build/_ab/
+_build/_deploy_backup/
+_build/_fix5/
+_build/_xsp/
