@@ -1,14 +1,19 @@
-.env
-*.ex5
-*.ex4
+```
+# Build artifacts
+_build/
+*.mq5
+*.mqh
+
+# Logs and temp files
 *.log
 *.tmp
-*.cache
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
-nul
-__pycache__/
-*.pyc
-_build/_ab/
-_build/_deploy_backup/
-_build/_fix5/
-_build/_xsp/
+.idea/
+```
